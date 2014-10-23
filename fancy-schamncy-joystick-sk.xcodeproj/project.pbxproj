@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33F673E619F7DC68006053E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F673E519F7DC68006053E7 /* main.m */; };
+		33F673E919F7DC68006053E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F673E819F7DC68006053E7 /* AppDelegate.m */; };
+		33F673EC19F7DC68006053E7 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F673EB19F7DC68006053E7 /* GameScene.m */; };
+		33F673EE19F7DC68006053E7 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 33F673ED19F7DC68006053E7 /* GameScene.sks */; };
+		33F673F119F7DC68006053E7 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F673F019F7DC68006053E7 /* GameViewController.m */; };
+		33F673F419F7DC68006053E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33F673F219F7DC68006053E7 /* Main.storyboard */; };
+		33F673F619F7DC68006053E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33F673F519F7DC68006053E7 /* Images.xcassets */; };
+		33F673F919F7DC68006053E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33F673F719F7DC68006053E7 /* LaunchScreen.xib */; };
+		33F6740519F7DC68006053E7 /* fancy_schamncy_joystick_skTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F6740419F7DC68006053E7 /* fancy_schamncy_joystick_skTests.m */; };
+		33F6741119F7DCBC006053E7 /* FancyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F6741019F7DCBC006053E7 /* FancyJoystick.m */; };
+		33F6741819F7E193006053E7 /* easing.c in Sources */ = {isa = PBXBuildFile; fileRef = 33F6741419F7E193006053E7 /* easing.c */; };
+		33F6741919F7E193006053E7 /* SKEase.m in Sources */ = {isa = PBXBuildFile; fileRef = 33F6741719F7E193006053E7 /* SKEase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33F673FF19F7DC68006053E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33F673D819F7DC68006053E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33F673DF19F7DC68006053E7;
+			remoteInfo = "fancy-schamncy-joystick-sk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33F673E019F7DC68006053E7 /* fancy-schamncy-joystick-sk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fancy-schamncy-joystick-sk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F673E419F7DC68006053E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F673E519F7DC68006053E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33F673E719F7DC68006053E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33F673E819F7DC68006053E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33F673EA19F7DC68006053E7 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		33F673EB19F7DC68006053E7 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		33F673ED19F7DC68006053E7 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		33F673EF19F7DC68006053E7 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		33F673F019F7DC68006053E7 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		33F673F319F7DC68006053E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33F673F519F7DC68006053E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33F673F819F7DC68006053E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33F673FE19F7DC68006053E7 /* fancy-schamncy-joystick-skTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fancy-schamncy-joystick-skTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F6740319F7DC68006053E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33F6740419F7DC68006053E7 /* fancy_schamncy_joystick_skTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fancy_schamncy_joystick_skTests.m; sourceTree = "<group>"; };
+		33F6740F19F7DCBC006053E7 /* FancyJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FancyJoystick.h; sourceTree = "<group>"; };
+		33F6741019F7DCBC006053E7 /* FancyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FancyJoystick.m; sourceTree = "<group>"; };
+		33F6741319F7E193006053E7 /* EasingDeclarations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingDeclarations.h; sourceTree = "<group>"; };
+		33F6741419F7E193006053E7 /* easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = easing.c; sourceTree = "<group>"; };
+		33F6741519F7E193006053E7 /* easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = easing.h; sourceTree = "<group>"; };
+		33F6741619F7E193006053E7 /* SKEase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKEase.h; sourceTree = "<group>"; };
+		33F6741719F7E193006053E7 /* SKEase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKEase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33F673DD19F7DC68006053E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F673FB19F7DC68006053E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33F673D719F7DC68006053E7 = {
+			isa = PBXGroup;
+			children = (
+				33F673E219F7DC68006053E7 /* fancy-schamncy-joystick-sk */,
+				33F6740119F7DC68006053E7 /* fancy-schamncy-joystick-skTests */,
+				33F673E119F7DC68006053E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33F673E119F7DC68006053E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33F673E019F7DC68006053E7 /* fancy-schamncy-joystick-sk.app */,
+				33F673FE19F7DC68006053E7 /* fancy-schamncy-joystick-skTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33F673E219F7DC68006053E7 /* fancy-schamncy-joystick-sk */ = {
+			isa = PBXGroup;
+			children = (
+				33F6741219F7E189006053E7 /* Easing Extension */,
+				33F6740E19F7DC9F006053E7 /* FancySchmancyJoystick */,
+				33F673E719F7DC68006053E7 /* AppDelegate.h */,
+				33F673E819F7DC68006053E7 /* AppDelegate.m */,
+				33F673EA19F7DC68006053E7 /* GameScene.h */,
+				33F673EB19F7DC68006053E7 /* GameScene.m */,
+				33F673ED19F7DC68006053E7 /* GameScene.sks */,
+				33F673EF19F7DC68006053E7 /* GameViewController.h */,
+				33F673F019F7DC68006053E7 /* GameViewController.m */,
+				33F673F219F7DC68006053E7 /* Main.storyboard */,
+				33F673F519F7DC68006053E7 /* Images.xcassets */,
+				33F673F719F7DC68006053E7 /* LaunchScreen.xib */,
+				33F673E319F7DC68006053E7 /* Supporting Files */,
+			);
+			path = "fancy-schamncy-joystick-sk";
+			sourceTree = "<group>";
+		};
+		33F673E319F7DC68006053E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33F673E419F7DC68006053E7 /* Info.plist */,
+				33F673E519F7DC68006053E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33F6740119F7DC68006053E7 /* fancy-schamncy-joystick-skTests */ = {
+			isa = PBXGroup;
+			children = (
+				33F6740419F7DC68006053E7 /* fancy_schamncy_joystick_skTests.m */,
+				33F6740219F7DC68006053E7 /* Supporting Files */,
+			);
+			path = "fancy-schamncy-joystick-skTests";
+			sourceTree = "<group>";
+		};
+		33F6740219F7DC68006053E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33F6740319F7DC68006053E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33F6740E19F7DC9F006053E7 /* FancySchmancyJoystick */ = {
+			isa = PBXGroup;
+			children = (
+				33F6740F19F7DCBC006053E7 /* FancyJoystick.h */,
+				33F6741019F7DCBC006053E7 /* FancyJoystick.m */,
+			);
+			name = FancySchmancyJoystick;
+			sourceTree = "<group>";
+		};
+		33F6741219F7E189006053E7 /* Easing Extension */ = {
+			isa = PBXGroup;
+			children = (
+				33F6741319F7E193006053E7 /* EasingDeclarations.h */,
+				33F6741419F7E193006053E7 /* easing.c */,
+				33F6741519F7E193006053E7 /* easing.h */,
+				33F6741619F7E193006053E7 /* SKEase.h */,
+				33F6741719F7E193006053E7 /* SKEase.m */,
+			);
+			name = "Easing Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33F673DF19F7DC68006053E7 /* fancy-schamncy-joystick-sk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F6740819F7DC68006053E7 /* Build configuration list for PBXNativeTarget "fancy-schamncy-joystick-sk" */;
+			buildPhases = (
+				33F673DC19F7DC68006053E7 /* Sources */,
+				33F673DD19F7DC68006053E7 /* Frameworks */,
+				33F673DE19F7DC68006053E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fancy-schamncy-joystick-sk";
+			productName = "fancy-schamncy-joystick-sk";
+			productReference = 33F673E019F7DC68006053E7 /* fancy-schamncy-joystick-sk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33F673FD19F7DC68006053E7 /* fancy-schamncy-joystick-skTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33F6740B19F7DC68006053E7 /* Build configuration list for PBXNativeTarget "fancy-schamncy-joystick-skTests" */;
+			buildPhases = (
+				33F673FA19F7DC68006053E7 /* Sources */,
+				33F673FB19F7DC68006053E7 /* Frameworks */,
+				33F673FC19F7DC68006053E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33F6740019F7DC68006053E7 /* PBXTargetDependency */,
+			);
+			name = "fancy-schamncy-joystick-skTests";
+			productName = "fancy-schamncy-joystick-skTests";
+			productReference = 33F673FE19F7DC68006053E7 /* fancy-schamncy-joystick-skTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33F673D819F7DC68006053E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Daniel Grönlund";
+				TargetAttributes = {
+					33F673DF19F7DC68006053E7 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					33F673FD19F7DC68006053E7 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 33F673DF19F7DC68006053E7;
+					};
+				};
+			};
+			buildConfigurationList = 33F673DB19F7DC68006053E7 /* Build configuration list for PBXProject "fancy-schamncy-joystick-sk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33F673D719F7DC68006053E7;
+			productRefGroup = 33F673E119F7DC68006053E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33F673DF19F7DC68006053E7 /* fancy-schamncy-joystick-sk */,
+				33F673FD19F7DC68006053E7 /* fancy-schamncy-joystick-skTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33F673DE19F7DC68006053E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F673F919F7DC68006053E7 /* LaunchScreen.xib in Resources */,
+				33F673F619F7DC68006053E7 /* Images.xcassets in Resources */,
+				33F673EE19F7DC68006053E7 /* GameScene.sks in Resources */,
+				33F673F419F7DC68006053E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F673FC19F7DC68006053E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33F673DC19F7DC68006053E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F6741819F7E193006053E7 /* easing.c in Sources */,
+				33F673F119F7DC68006053E7 /* GameViewController.m in Sources */,
+				33F673E919F7DC68006053E7 /* AppDelegate.m in Sources */,
+				33F6741119F7DCBC006053E7 /* FancyJoystick.m in Sources */,
+				33F673EC19F7DC68006053E7 /* GameScene.m in Sources */,
+				33F6741919F7E193006053E7 /* SKEase.m in Sources */,
+				33F673E619F7DC68006053E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33F673FA19F7DC68006053E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F6740519F7DC68006053E7 /* fancy_schamncy_joystick_skTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33F6740019F7DC68006053E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33F673DF19F7DC68006053E7 /* fancy-schamncy-joystick-sk */;
+			targetProxy = 33F673FF19F7DC68006053E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33F673F219F7DC68006053E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F673F319F7DC68006053E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33F673F719F7DC68006053E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33F673F819F7DC68006053E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33F6740619F7DC68006053E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33F6740719F7DC68006053E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33F6740919F7DC68006053E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fancy-schamncy-joystick-sk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33F6740A19F7DC68006053E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fancy-schamncy-joystick-sk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33F6740C19F7DC68006053E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fancy-schamncy-joystick-skTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fancy-schamncy-joystick-sk.app/fancy-schamncy-joystick-sk";
+			};
+			name = Debug;
+		};
+		33F6740D19F7DC68006053E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fancy-schamncy-joystick-skTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fancy-schamncy-joystick-sk.app/fancy-schamncy-joystick-sk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33F673DB19F7DC68006053E7 /* Build configuration list for PBXProject "fancy-schamncy-joystick-sk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F6740619F7DC68006053E7 /* Debug */,
+				33F6740719F7DC68006053E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F6740819F7DC68006053E7 /* Build configuration list for PBXNativeTarget "fancy-schamncy-joystick-sk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F6740919F7DC68006053E7 /* Debug */,
+				33F6740A19F7DC68006053E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33F6740B19F7DC68006053E7 /* Build configuration list for PBXNativeTarget "fancy-schamncy-joystick-skTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33F6740C19F7DC68006053E7 /* Debug */,
+				33F6740D19F7DC68006053E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33F673D819F7DC68006053E7 /* Project object */;
+}
