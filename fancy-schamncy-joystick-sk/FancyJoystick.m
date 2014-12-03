@@ -171,7 +171,7 @@ CGPoint CGPointAdd(const CGPoint v1, const CGPoint v2)
     }
     _direction = CGPointMake(0, 0);
     if (self.delegate != nil) {
-        if ([self.delegate respondsToSelector:@selector(joystickReleased:)])[self.delegate joystickReleased];
+        if ([self.delegate respondsToSelector:@selector(joystickReleased:)])[self.delegate joystickReleased:self];
     }
 }
 

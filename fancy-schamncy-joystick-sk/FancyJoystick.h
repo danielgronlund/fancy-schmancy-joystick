@@ -15,7 +15,7 @@
  *  Implement this method to a delegate to directly handle when the joystick is moved
  */
 - (void)joystickUpdatedDirection:(id)sender;
-- (void)joystickReleased;
+- (void)joystickReleased:(id)sender;
 @end
 
 @interface FancyJoystick : SKSpriteNode
