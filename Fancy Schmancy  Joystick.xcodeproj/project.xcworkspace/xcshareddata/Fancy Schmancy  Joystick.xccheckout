@@ -10,29 +10,29 @@
 	<string>Fancy Schmancy  Joystick</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8CB99437-F45C-4B3E-A8B3-462E02F7DDAA</key>
-		<string>ssh://github.com/danielgronlund/fancy-schmancy-joystick.git</string>
+		<key>32F1BEB3A73A6CCEE32D0FFC150DB01C843F3ACC</key>
+		<string>github.com:danielgronlund/fancy-schmancy-joystick.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Fancy Schmancy  Joystick.xcodeproj/project.xcworkspace</string>
+	<string>Fancy Schmancy  Joystick.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8CB99437-F45C-4B3E-A8B3-462E02F7DDAA</key>
+		<key>32F1BEB3A73A6CCEE32D0FFC150DB01C843F3ACC</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/danielgronlund/fancy-schmancy-joystick.git</string>
+	<string>github.com:danielgronlund/fancy-schmancy-joystick.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8CB99437-F45C-4B3E-A8B3-462E02F7DDAA</string>
+	<string>32F1BEB3A73A6CCEE32D0FFC150DB01C843F3ACC</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8CB99437-F45C-4B3E-A8B3-462E02F7DDAA</string>
+			<string>32F1BEB3A73A6CCEE32D0FFC150DB01C843F3ACC</string>
 			<key>IDESourceControlWCCName</key>
 			<string>fancy-schmancy-joystick</string>
 		</dict>

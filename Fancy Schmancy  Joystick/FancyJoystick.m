@@ -129,7 +129,7 @@
     }
     _direction = ccp(0, 0);
     if (self.delegate != nil) {
-        if ([self.delegate respondsToSelector:@selector(joystickReleased:)])[self.delegate joystickReleased];
+        if ([self.delegate respondsToSelector:@selector(joystickReleased:)])[self.delegate joystickReleased:self];
     }
 }
 
